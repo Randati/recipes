@@ -1,7 +1,7 @@
 ---
 
 layout: recipe
-title: "Spiro-jäätelö"
+title: "Jäätelö"
 tags:
   - jälkiruoka
 time: 15 min + muutama tunti pakastimessa
