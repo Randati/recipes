@@ -1,12 +1,18 @@
 
 .recipe-header {
 	text-align: center;
+	margin: 60px 0;
 }
 
 .recipe-ingredients,
 .recipe-directions {
-	margin: 30px 0;
+	margin: 60px 0;
 }
+
+.recipe h3 {
+	text-align: center;
+}
+
 .recipe-ingredients ul,
 .recipe-ingredients li {
 	list-style-type: none;

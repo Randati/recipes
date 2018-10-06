@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<article>
+<article class="recipe">
   <header class="recipe-header">
-    <h1>{{ page.title | escape }}</h1>
+    <h2>{{ page.title | escape }}</h2>
     <div>{{ page.time | escape }}</div>
     <div>{{ page.tags | join: ", " }}</div>
   </header>
 
   <div class="recipe-ingredients">
-    <h2>Ainekset</h2>
+    <h3>Ainekset</h3>
     <ul>
       {%- for ingredient in page.ingredients -%}
         {%- if ingredient.first -%}
@@ -29,7 +29,7 @@ layout: default
   </div>
 
   <div class="recipe-directions">
-    <h2>Ohjeet</h2>
+    <h3>Ohjeet</h3>
     <ol>
       {%- for direction in page.directions -%}
         <li>{{ direction | escape }}</li>
@@ -43,7 +43,7 @@ layout: default
 
   {%- if page.sources -%}
     <div class="recipe-sources">
-      <h2>Inspiraatiot</h2>
+      <h3>Inspiraatiot</h3>
       <ul>
         {%- for source in page.sources -%}
           <li><a href="{{ source.url }}">{{ source.name | escape }}</a></li>
