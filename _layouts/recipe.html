@@ -4,9 +4,17 @@ layout: default
 <article class="recipe">
   <header class="recipe-header">
     <h2>{{ page.title | escape }}</h2>
+    <div>{{ page.serves | escape }}</div>
     <div>{{ page.time | escape }}</div>
-    <div>{{ page.tags | join: ", " }}</div>
+    <!-- <div>{{ page.tags | join: ", " }}</div> -->
   </header>
+
+  {%- if page.notice -%}
+    <div class="recipe-notices">
+      <h3>Huom, huom!</h3>
+      <p>{{ page.notice | escape }}</p>
+    </div>
+  {% endif %}
 
   <div class="recipe-ingredients">
     <h3>Ainekset</h3>
