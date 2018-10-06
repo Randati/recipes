@@ -19,8 +19,8 @@
 	padding: 0;
 }
 .recipe-ingredients li li {
-	padding: 2px 0 2px 16px;
-	border-top: 1px solid #ddd;
+	padding: 4px 0 4px 16px;
+	border-top: 1px solid #eee;
 }
 .recipe-ingredients strong {
 	display: block;
