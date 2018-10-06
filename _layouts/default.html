@@ -9,20 +9,19 @@ layout: compress
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{%- if page.title -%}{{ page.title | escape }} - {%- endif -%}{{ site.title | escape }}</title>
     <style>
-      {% include style.css %}
+      {% include main.css %}
+      {%- if page.layout == "recipe" -%}
+        {% include recipe.css %}
+      {%- endif -%}
     </style>
   </head>
   <body>
     <header id="site-header">
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     </header>
 
     <main id="site-content">
       {{ content }}
     </main>
-    
-    <footer id="site-footer">
-
-    </footer>
   </body>
 </html>
