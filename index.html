@@ -1,0 +1,93 @@
+---
+layout: home
+---
+
+{%- for recipe_category in site.recipe_categories -%}
+    <h2>{{ recipe_category.name | escape }}</h2>
+    <ul>
+    {%- for recipe in site.recipes -%}
+      {%- if recipe.tags contains recipe_category.tag -%}
+        <li>
+          <a href="{{ recipe.url | relative_url }}">
+            {{ recipe.title | escape }}
+          </a>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+    </ul>
+  {%- endfor -%}
+<!-- 
+  <h2>Pöperöt</h2>
+  <ul>
+    {%- for recipe in site.recipes -%}
+    <li>
+      <a href="{{ recipe.url | relative_url }}">
+        {{ recipe.title | escape }}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul> -->
+<!-- 
+  <br>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <br>
+  <br>
+
+  <h2>Todo</h2>
+  <ul>
+    <li>Alkuruoka
+      <ul>
+        <li>Bruchetta</li>
+        <li>Pinaattikeitto</li>
+        <li>Bataatti-kookoskeitto</li>
+        <li>Parsakeitto</li>
+        <li>Porkkanasosekeitto</li>
+        <li>Merilevä-alkupalat</li>
+      </ul>
+    </li>
+    <li>Pääruoka
+      <ul>
+        <li>Poke-bowl</li>
+        <li>Lasagne</li>
+        <li>Gyros</li>
+        <li>Pasta "Carbonara"</li>
+        <li>Kaalilaatikko</li>
+        <li>Makaronilaatikko</li>
+        <li>Vegaaninen paella</li>
+        <li>Burgereita, ranskalaisia</li>
+        <li>Nyhtokaura-bataattipyttipannu</li>
+        <li>shepherd's pie</li>
+        <li>Nyhtis-wokki</li>
+      </ul>
+    </li>
+    <li>Salaatti
+      <ul>
+        <li>Salaatti (caramelized walnuts, granaattiomena)</li>
+        <li>Salaatti (vesimeloni, mansikka)</li>
+        <li>The Kvinoasalaatti</li>
+        <li>paahdettu-linssi-perunasalaatti</li>
+        <li>Pastasalaatti</li>
+        <li>Vesimeloni-quinoa-salaatti</li>
+      </ul>
+    </li>
+    <li>Jälkiruoka
+      <ul>
+        <li>Banoffee</li>
+        <li>Mutakakku</li>
+        <li>Avokadojäätelö</li>
+        <li>Mustikkahyve</li>
+        <li>Raparperipiirakka</li>
+        <li>Vadelmajäädyke, kinuski</li>
+        <li>Creme brûlée</li>
+      </ul>
+    </li>
+    <li>Naposteltava
+      <ul>
+        <li>Nyhtis-piirakka</li>
+      </ul>
+    </li>
+  </ul>
+-->

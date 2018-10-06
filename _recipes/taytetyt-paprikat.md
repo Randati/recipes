@@ -18,7 +18,7 @@ ingredients:
     - 0.5 pakettia Härkistä
     - Suolaa
   "Muut täytteet":
-    - 1 dl couscousta, kvinoaa tai bulgur-vehnää, valmista paketin ohjeen mukaan
+    - 1 dl couscousta, kvinoaa tai bulgur-vehnää
     - 0.5 purkkia Oatly påMackan tomaatti-basilikaa
   "Mausteeksi esim.":
     - Kuivattua ruohosipulia

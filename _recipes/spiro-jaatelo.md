@@ -19,7 +19,7 @@ ingredients:
   "Suklaa-minttu-oreo":
     - Tummaa suklaata sulatettuna
     - Minttua silputtuna
-    - Pari minttu-oreota
+    - 3 minttu-oreota
   "Kiivi-turkinpippuri":
     - 1-2 kiiviä
     - Turkinpippurirouhetta (Fazer Tyrkisk Peber Crush)
