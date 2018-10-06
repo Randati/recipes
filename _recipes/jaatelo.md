@@ -12,26 +12,27 @@ ingredients:
     - 2 dl purkki Plantin kauravispiä
     - 0.5 dl sokeria
     - 0.5 dl glukoosisiirappia
-    - Pieni liraus iKaffea
+    - pieni liraus iKaffea
   "Sitruuna-basilika":
-    - Sitruunan kuorta ja mehua
-    - Basilikaa silputtuna
+    - sitruunan kuorta ja mehua
+    - basilikaa silputtuna
   "Suklaa-minttu-oreo":
-    - Tummaa suklaata sulatettuna
-    - Minttua silputtuna
-    - 3 minttu-oreota
+    - tummaa suklaata sulatettuna
+    - minttua silputtuna
+    - 3 minttu-oreota murskattuna
   "Kiivi-turkinpippuri":
-    - 1-2 kiiviä
-    - Turkinpippurirouhetta (Fazer Tyrkisk Peber Crush)
+    - 1-2 kiiviä tohjona
+    - turkinpippurirouhetta (Fazer Tyrkisk Peber Crush)
   "Lakka":
-    - Lakkoja
+    - lakkoja
   "Sitruuna-lakritsi":
-    - Sitruunan kuorta ja mehua
-    - Lakritsijauhetta
+    - sitruunan kuorta ja mehua
+    - lakritsijauhetta
 
 directions:
-- Sekoita ainekset keskenään
-- Laita pakastimeen vähintään muutamaksi tunniksi
+- Sekoita ainekset keskenään. iKaffea tulee sen verran, että koostumuksesta tulee sopiva.
+- Laita pakastimeen vähintään muutamaksi tunniksi.
+- Jäätelöä voi hieman sekoittaa ennen tarjoilua.
 
 sources:
   - name: Spiro Finland

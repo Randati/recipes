@@ -11,19 +11,19 @@ ingredients:
   "Paprikat":
     - 2 paprikaa
   "Paistettavat täytteet":
-    - Sipulia 
-    - Valkosipulia 
-    - Herkkusieniä
-    - Lehtikaalia
+    - sipulia 
+    - valkosipulia 
+    - herkkusieniä
+    - lehtikaalia
     - 0.5 pakettia Härkistä
-    - Suolaa
+    - suolaa
   "Muut täytteet":
     - 1 dl couscousta, kvinoaa tai bulgur-vehnää
     - 0.5 purkkia Oatly påMackan tomaatti-basilikaa
   "Mausteeksi esim.":
-    - Kuivattua ruohosipulia
-    - Sipulijauhettta
-    - Valkosipulijauhetta
+    - kuivattua ruohosipulia
+    - sipulijauhettta
+    - valkosipulijauhetta
   
  
 directions:

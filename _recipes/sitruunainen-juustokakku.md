@@ -21,7 +21,7 @@ ingredients:
     - 3.5 rkl agar-agar-hiutaleita
   "Koristeluun":
     - 300 g marjoja
-    - Mintunlehtiä
+    - mintunlehtiä
 
 
 directions:

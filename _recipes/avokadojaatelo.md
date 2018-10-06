@@ -12,11 +12,11 @@ ingredients:
     - 2 avokadoa
     - 2 dl kauravaniljakastiketta
     - 4 rkl vaahterasiirappia
-    - Minttua
-    - Limetin mehua
+    - minttua
+    - limetin mehua
   "Koristeluun":
-    - Vadelmia tai mansikoita
-    - Minttua
+    - vadelmia tai mansikoita
+    - minttua
 
 directions:
 - Halkaise avokadot, poista kivi ja kaavi sisälmykset. Säästä kuoret.
