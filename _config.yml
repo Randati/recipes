@@ -39,10 +39,10 @@ collections:
 recipe_categories:
   # - name: Alkuruoat
   #   tag: alkuruoka
-  # - name: Keitot
-  #   tag: keitto
-  # - name: Salaatit
-  #   tag: salaatti
+  - name: Keitot
+    tag: keitto
+  - name: Salaatit
+    tag: salaatti
   - name: Pääruoat
     tag: pääruoka
   - name: Jälkiruoat
