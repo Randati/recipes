@@ -64,3 +64,7 @@ a:hover {
 #page-404 {
 	text-align: center;
 }
+
+.page {
+	margin: 60px 0;
+}
