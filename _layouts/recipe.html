@@ -4,7 +4,6 @@ layout: default
 <article class="recipe">
   <header class="recipe-header">
     <h2>{{ page.title | escape }}</h2>
-    <div>{{ page.serves | escape }}</div>
     <div>{{ page.time | escape }}</div>
     <!-- <div>{{ page.tags | join: ", " }}</div> -->
   </header>
@@ -18,6 +17,7 @@ layout: default
 
   <div class="recipe-ingredients">
     <h3>Ainekset</h3>
+    <div class="recipe-serves">{{ page.serves | escape }}</div>
     <ul>
       {%- for ingredient in page.ingredients -%}
         {%- if ingredient.first -%}
