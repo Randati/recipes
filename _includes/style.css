@@ -1,0 +1,54 @@
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+h1, h2, h3 {
+	font-family: Poppins;
+	margin-bottom: 8px;
+}
+
+#site-header {
+	text-align: center;
+	height: 150px;
+	line-height: 150px;
+}
+
+#site-header a {
+	text-decoration: none;
+	color: #333;
+	font-family: Poppins;
+	font-size: 24px;
+}
+
+#site-content {
+	max-width: 600px;
+	padding: 0 32px;
+	margin: 0 auto;
+}
+
+#site-footer {
+	height: 100px;
+}
+
+
+.recipe-header {
+	text-align: center;
+}
+
+.recipe-ingredients,
+.recipe-directions {
+	margin: 30px 0;
+}
+.recipe-directions li {
+	padding-bottom: 16px;
+}

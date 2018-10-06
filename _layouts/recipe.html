@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<article>
+  <header class="recipe-header">
+    <h1>{{ page.title | escape }}</h1>
+    <div>{{ page.time | escape }}</div>
+    <div>{{ page.tags | join: ", " }}</div>
+  </header>
+
+  <div class="recipe-ingredients">
+    <h2>Ainekset</h2>
+    <ul>
+      {%- for ingredient in page.ingredients -%}
+        {%- if ingredient.first -%}
+          <li>
+            <strong>{{ ingredient[0] | escape }}</strong>
+            <ul>
+              {%- for ingredient2 in ingredient[1] -%}
+                <li>{{ ingredient2 | escape }}</li>
+              {%- endfor -%}
+            </ul>
+          </li>
+        {% else %}
+          <li>{{ ingredient | escape }}</li>
+        {% endif %}
+      {%- endfor -%}
+    </ul>
+  </div>
+
+  <div class="recipe-directions">
+    <h2>Ohjeet</h2>
+    <ol>
+      {%- for direction in page.directions -%}
+        <li>{{ direction | escape }}</li>
+      {%- endfor -%}
+    </ol>
+  </div>
+
+  <div>
+    {{ content }}
+  </div>
+
+  {%- if page.sources -%}
+    <div class="recipe-sources">
+      <h2>Inspiraatiot</h2>
+      <ul>
+        {%- for source in page.sources -%}
+          <li><a href="{{ source.url }}">{{ source.name | escape }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  {% endif %}
+</article>
