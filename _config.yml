@@ -37,8 +37,8 @@ collections:
 
 
 recipe_categories:
-  # - name: Alkuruoat
-  #   tag: alkuruoka
+  - name: Alkuruoat
+    tag: alkuruoka
   - name: Keitot
     tag: keitto
   - name: Salaatit
