@@ -45,6 +45,13 @@ layout: default
     </ol>
   </div>
 
+  {%- if page.tip -%}
+    <div class="recipe-tip">
+      <h3>Vinkki!</h3>
+      <p>{{ page.tip | escape }}</p>
+    </div>
+  {% endif %}
+
   <div>
     {{ content }}
   </div>

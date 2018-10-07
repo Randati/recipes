@@ -34,11 +34,11 @@ directions:
 - Paista 200 °C asteessa noin 30 minuuttia.
 - Tarjoile ketsupin kanssa.
 
+tip: >
+  Voit kokeilla soijarouheen sijasta myös nyhtökauraa.
+
 sources:
   - name: Vegaaniliitto, Soijarouhe-makaronilaatikko
     url: http://www.vegaaniliitto.fi/www/fi/arki/ruoka/reseptit/soijarouhe-makaronilaatikko
-
-notice: >
-  Voit kokeilla soijarouheen sijasta myös nyhtökauraa.
 
 ---

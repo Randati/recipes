@@ -7,6 +7,9 @@ tags:
 time: 15 min + muutama tunti pakastimessa
 serves: 4:lle
 
+notice: >
+  Tästä tulee kivikova avokadopalikka! Glukoosisiirappi saattaisi auttaa.
+
 ingredients:
   "Jäätelö":
     - 2 avokadoa
@@ -23,9 +26,6 @@ directions:
 - Sekoita ainekset keskenään.
 - Laita seos takaisin avokadojen kuoriin ja laita pakkaseen muutamaksi tunniksi.
 - Koristele marjoilla ja mintunlehdillä ennen tarjoilua.
-
-notice: >
-  Tästä tulee kivikova avokadopalikka! Glukoosisiirappi saattaisi auttaa.
 
 sources:
   - name: Kotiliesi, Avocadojäätelö – vain kolme raaka-ainetta! (vegaaninen) 

@@ -38,6 +38,9 @@ directions:
 - Valmistele ja paloittele muut aineet ja asettele kaikki syvälle lautaselle.
 - Kaada kastikkeita ja ripottele seesaminsiemeniä makua antamaan.
 
+tip: >
+  Kokeile inari tofua, sushiriisiä ja nori-merilevämattoja.
+
 sources:
 
 ---

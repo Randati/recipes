@@ -49,6 +49,8 @@ recipe_categories:
     tag: jälkiruoka
   # - name: Naposteltavat
   #   tag: naposteltava
+  # - name: Aamu- ja iltapalat
+  #   tag: pala
 
 
 # Exclude from processing.

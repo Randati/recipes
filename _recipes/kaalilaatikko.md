@@ -43,11 +43,11 @@ directions:
 - Paista 175 °C asteessa noin tunti.
 - Tarjoile puolukkahillon kanssa.
 
+tip: >
+  Voit kokeilla soijarouheen sijasta myös nyhtökauraa.
+
 sources:
   - name: Chocochili, Soijarouhe-kaalilaatikko
     url: https://chocochili.net/2014/11/soijarouhe-kaalilaatikko/
-
-notice: >
-  Voit kokeilla soijarouheen sijasta myös nyhtökauraa.
 
 ---
