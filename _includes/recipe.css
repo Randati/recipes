@@ -7,6 +7,7 @@
 	margin: 60px 0;
 }
 
+.recipe-notice,
 .recipe-ingredients,
 .recipe-directions {
 	margin: 60px 0;
@@ -36,6 +37,7 @@
 .recipe-directions li {
 	padding-bottom: 16px;
 }
+.recipe-notice,
 .recipe-serves {
 	text-align: center;
 }

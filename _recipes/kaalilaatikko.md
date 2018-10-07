@@ -5,7 +5,7 @@ title: "Kaalilaatikko"
 tags:
   - pääruoka
 time: 1 h 30 min
-serves:
+serves: 3-5:lle
 
 ingredients:
   "Ohrasuurimot":
@@ -46,5 +46,8 @@ directions:
 sources:
   - name: Chocochili, Soijarouhe-kaalilaatikko
     url: https://chocochili.net/2014/11/soijarouhe-kaalilaatikko/
+
+notice: >
+  Voit kokeilla soijarouheen sijasta myös nyhtökauraa.
 
 ---
