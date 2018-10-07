@@ -4,7 +4,7 @@ layout: recipe
 title: "Kaalilaatikko"
 tags:
   - pääruoka
-time: 1 h 30 min
+time: 30 min + 1 h uunissa
 serves: 3-5:lle
 
 ingredients:

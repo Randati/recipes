@@ -5,7 +5,7 @@ title: "Pinaattikeitto"
 tags:
   - keitto
 time: 15 min
-serves: 2 kunnon annosta
+serves: 3-4 annosta tai 2 Antin ateriaa
 
 ingredients:
   - 50 g margariinia
@@ -19,9 +19,8 @@ ingredients:
   - suolaa
 
 directions:
-- Sulata margariini (pinnoitetun) kattilan pohjalla. Sekoita joukkoon vehnäjauhot. Lisää noin puolet maidosta ja sekoita vispilän avulla kunnes seos on tasaista ja kiehuu.
-- Lisää loppu maito, kasvisliemikuutio, jäinen pinaatti ja kaurakerma. Keitä muutaman minuutin ajan välillä sekoitellen.
-- Mausta valko- ja mustapippurilla. Tarkista suola.
+- Paista margariinia ja jauhoja kattilassa hetki. Lisää maito pikkuhiljaa koko ajan vispilällä sekoittaen.
+- Lisää kaikki muut aineet ja anna kiehua hetki.
 
 sources:
   - name: Chocochili, Vegaaninen pinaattikeitto
