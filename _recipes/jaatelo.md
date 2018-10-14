@@ -23,11 +23,13 @@ ingredients:
   "Kiivi-turkinpippuri":
     - 1-2 kiiviä tohjona
     - turkinpippurirouhetta (Fazer Tyrkisk Peber Crush)
-  "Lakka":
-    - lakkoja
   "Sitruuna-lakritsi":
     - sitruunan kuorta ja mehua
     - lakritsijauhetta
+  "Lakka":
+    - lakkoja
+  "Vadelma":
+    - vadelmia
 
 directions:
 - Sekoita ainekset keskenään. iKaffea tulee sen verran, että koostumuksesta tulee sopiva.

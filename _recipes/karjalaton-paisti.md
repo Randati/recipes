@@ -18,7 +18,6 @@ ingredients:
     - 5 porkkanaa
     - 3 sipulia
     - 4 valkosipulinkynttä
-    - 15 perunaa
     - paljon laakerinlehtiä
     - paljon maustepippureita
     - paljon mustapippureita
@@ -30,6 +29,9 @@ directions:
 - Paista ja mausta nyhtökaura pannulla.
 - Kuutioi muut ainekset ja laita uunivuokaan/pataan. Kasvislientä tulee niin paljon, että kaikki peittyy. Mausteita tulee paljon.
 - Kypsennä 175 °C asteessa 2-3 tuntia.
+
+tip: >
+  Voit lisätä perunat sekaan tai tarjoilla vaikka perunamuusin kanssa.
 
 sources:
 
