@@ -36,6 +36,9 @@ directions:
 - Laita pakastimeen vähintään muutamaksi tunniksi.
 - Jäätelöä voi hieman sekoittaa ennen tarjoilua.
 
+tip: >
+  Saattaisi toimia myös ilman sokeria. Kauravispiä voisi myös kokeilla vispata.
+
 sources:
   - name: Spiro Finland
     url: https://www.spirofinland.fi/
