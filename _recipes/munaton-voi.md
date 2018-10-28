@@ -15,4 +15,8 @@ directions:
   - Valuta tofusta ylimääräiset nesteet ja murenna se.
   - Sekoita kaikki ainekset keskenään.
 
+sources:
+  - name: Chocochili, Vegaaninen munavoi
+    url: https://chocochili.net/2016/09/vegaaninen-munavoi/
+
 ---
