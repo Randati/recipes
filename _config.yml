@@ -47,6 +47,8 @@ recipe_categories:
     tag: pääruoka
   - name: Jälkiruoat
     tag: jälkiruoka
+  - name: Sekalaiset
+    tag: sekalainen
   # - name: Naposteltavat
   #   tag: naposteltava
   # - name: Aamu- ja iltapalat
