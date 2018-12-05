@@ -11,7 +11,7 @@ layout: default
   {%- if page.notice -%}
     <div class="recipe-notice">
       <h3>Huom, huom!</h3>
-      <p>{{ page.notice | escape }}</p>
+      <p>{{ page.notice | markdownify }}</p>
     </div>
   {% endif %}
 
@@ -22,15 +22,15 @@ layout: default
       {%- for ingredient in page.ingredients -%}
         {%- if ingredient.first -%}
           <li>
-            <strong>{{ ingredient[0] | escape }}</strong>
+            <strong>{{ ingredient[0] | markdownify }}</strong>
             <ul>
               {%- for ingredient2 in ingredient[1] -%}
-                <li>{{ ingredient2 | escape }}</li>
+                <li>{{ ingredient2 | markdownify }}</li>
               {%- endfor -%}
             </ul>
           </li>
         {% else %}
-          <li>{{ ingredient | escape }}</li>
+          <li>{{ ingredient | markdownify }}</li>
         {% endif %}
       {%- endfor -%}
     </ul>
@@ -40,7 +40,7 @@ layout: default
     <h3>Ohjeet</h3>
     <ol>
       {%- for direction in page.directions -%}
-        <li>{{ direction | escape }}</li>
+        <li>{{ direction | markdownify }}</li>
       {%- endfor -%}
     </ol>
   </div>
@@ -48,7 +48,7 @@ layout: default
   {%- if page.tip -%}
     <div class="recipe-tip">
       <h3>Vinkki!</h3>
-      <p>{{ page.tip | escape }}</p>
+      <p>{{ page.tip | markdownify }}</p>
     </div>
   {% endif %}
 

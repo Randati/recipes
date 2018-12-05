@@ -9,10 +9,13 @@ serves: Noin 3:lle
 
 ingredients:
   "Pohja":
-    - 2 dl purkki Plantin kauravispiä
-    - 0.5 dl sokeria
+    - 2 dl Plantin kauravispiä
     - 0.5 dl glukoosisiirappia
-    - pieni liraus iKaffea
+    - (max 0.5 dl sokeria, jos haluaa supermakeaa)
+  "Suklaa & pähkinäkinuski":
+    - ~10 palaa tummaa suklaata sulatettuna
+    - paahdettuja maapähkinöita (kuori ja paahda pannulla)
+    - <sup>2</sup>&frasl;<sub>3</sub> annosta [kinuskia](/kinuski)
   "Sitruuna-basilika":
     - sitruunan kuorta ja mehua
     - basilikaa silputtuna
@@ -32,12 +35,9 @@ ingredients:
     - vadelmia
 
 directions:
-- Sekoita ainekset keskenään. iKaffea tulee sen verran, että koostumuksesta tulee sopiva.
+- Sekoita pohjan ainekset ja lisää valitsemasi täytteet. Kauravispiä ei tarvitse vispata.
 - Laita pakastimeen vähintään muutamaksi tunniksi.
 - Jäätelöä voi hieman sekoittaa ennen tarjoilua.
-
-tip: >
-  Saattaisi toimia myös ilman sokeria. Kauravispiä voisi myös kokeilla vispata.
 
 sources:
   - name: Spiro Finland
