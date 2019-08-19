@@ -33,6 +33,6 @@ directions:
   - Nosta kakku vuoasta tarjoiluvadille ja koristele marjoilla ja mintunlehdillä.
 
 sources:
-  - name: K-ruoka, vegaaninen juustokakku
+  - name: K-ruoka, Vegaaninen juustokakku
     url: https://www.k-ruoka.fi/reseptit/vegaaninen-juustokakku
 ---
