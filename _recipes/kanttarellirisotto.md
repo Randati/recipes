@@ -5,7 +5,7 @@ title: "Kanttarellirisotto"
 tags:
   - pääruoka
 time: 1 h
-serves: 2
+serves: 2:lle
 
 ingredients:
   - 200 g kanttarellejä
