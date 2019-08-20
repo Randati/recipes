@@ -9,7 +9,7 @@ serves:
 
 ingredients:
   - 1.5 dl fariinisokeria
-  - 1 dl soijakermaa (esim. Alpro Vispi)
+  - 1 dl soijakermaa (esim. Alpro Vispi) tai kookoskermaa kookoskinuskiin
   - merisuolaa
 
 directions:
