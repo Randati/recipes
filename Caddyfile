@@ -1,0 +1,7 @@
+h.randati.net
+
+file_server
+root ./_site/
+try_files {path}.html {path}
+encode gzip
+tls /etc/letsencrypt/live/h.randati.net/fullchain.pem /etc/letsencrypt/live/h.randati.net/privkey.pem

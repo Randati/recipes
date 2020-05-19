@@ -7,7 +7,7 @@ const CACHE_NAME = 'offline-cache-{{'now' | date: '%s' }}';
 
 const FILES_TO_CACHE = [
 	'/',
-	// '/main.css',
+	'/favicon.png',
 	'/poppins-700.subset.woff2',
 	{%- for recipe in site.recipes %}
 	'{{ recipe.url | relative_url }}',
