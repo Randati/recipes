@@ -10,9 +10,6 @@ layout: compress
     <title>{%- if page.title -%}{{ page.title | escape }} - {% endif -%} {{ site.title | escape }}</title>
     <style>
       {% include main.css %}
-      {%- if page.layout == "recipe" -%}
-        {% include recipe.css %}
-      {%- endif -%}
     </style>
   </head>
   <body>
@@ -23,5 +20,18 @@ layout: compress
     <main id="site-content">
       {{ content }}
     </main>
+
+    <script type="text/javascript">
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+          .register('/service-worker.js')
+          .catch(function(error) {
+            console.error(
+              'Service worker registration failed, error:',
+              error
+            );
+          });
+      }
+    </script>
   </body>
 </html>
