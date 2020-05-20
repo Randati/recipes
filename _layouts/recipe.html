@@ -2,10 +2,16 @@
 layout: default
 ---
 <article class="recipe">
-  <header class="recipe-header">
-    <h2>{{ page.title | escape }}</h2>
-    <div>{{ page.time | escape }}</div>
-  </header>
+  <h2>{{ page.title | escape }}</h2>
+
+  <div class="infos">
+    {% if page.time %}
+      <div class="info">⏳ {{ page.time | escape }}</div>
+    {% endif %}
+    {% if page.serves %}
+      <div class="info">🍲 {{ page.serves | escape }}</div>
+    {% endif %}
+  </div>
 
   {%- if page.notice -%}
     <div class="recipe-notice">
@@ -14,50 +20,47 @@ layout: default
     </div>
   {% endif %}
 
-  <div class="recipe-ingredients">
-    <h3>Ainekset</h3>
-    <div class="recipe-serves">{{ page.serves | markdownify }}</div>
-    <ul>
+  <div class="recipe-flex">
+    <div class="ingredients">
+      <h3>Ainekset</h3>
+
       {%- for ingredient in page.ingredients -%}
         {%- if ingredient.first -%}
-          <li>
-            <strong>{{ ingredient[0] | markdownify }}</strong>
-            <ul>
-              {%- for ingredient2 in ingredient[1] -%}
-                <li>{{ ingredient2 | markdownify }}</li>
-              {%- endfor -%}
-            </ul>
-          </li>
+          <div class="ingredient title">
+            {{ ingredient[0] | markdownify | remove: '<p>' | remove: '</p>' }}
+          </div>
+
+          {%- for ingredient2 in ingredient[1] -%}
+            <div class="ingredient sub">
+              {{ ingredient2 | markdownify | remove: '<p>' | remove: '</p>' }}
+            </div>
+          {%- endfor -%}
         {% else %}
-          <li>{{ ingredient | markdownify }}</li>
+          <div class="ingredient">
+            {{ ingredient | markdownify | remove: '<p>' | remove: '</p>' }}
+          </div>
         {% endif %}
       {%- endfor -%}
-    </ul>
-  </div>
+    </div>
 
-  <div class="recipe-directions">
-    <h3>Ohjeet</h3>
-    <ol>
-      {%- for direction in page.directions -%}
-        <li>{{ direction | markdownify }}</li>
-      {%- endfor -%}
-    </ol>
+    <div class="directions">
+      <h3>Ohjeet</h3>
+      <ol>
+        {%- for direction in page.directions -%}
+          <li>{{ direction | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {%- endfor -%}
+      </ol>
+    </div>
   </div>
 
   {%- if page.tip -%}
-    <div class="recipe-tip">
-      <h3>Vinkki!</h3>
-      <p>{{ page.tip | markdownify }}</p>
-    </div>
+    <h3>Vinkki!</h3>
+    <div class="little-box">{{ page.tip | markdownify }}</div>
   {% endif %}
 
-  <div>
-    {{ content }}
-  </div>
-
   {%- if page.sources -%}
-    <div class="recipe-sources">
-      <h3>Inspiraatiot</h3>
+    <h3>Inspiraatiot</h3>
+    <div class="little-box">
       <ul>
         {%- for source in page.sources -%}
           <li><a href="{{ source.url }}">{{ source.name | escape }}</a></li>
