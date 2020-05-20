@@ -4,7 +4,12 @@
   "icons": [
     {
       "src": "/favicon.png",
-      "sizes": "256x256",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/ios-icon.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
