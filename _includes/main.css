@@ -91,7 +91,7 @@ a:hover {
 	break-inside: avoid-column;
 	font-size: 12px;
 	padding: 5px 0;
-	line-height: 1.1;
+	line-height: 1.25;
 }
 
 
@@ -135,9 +135,10 @@ a:hover {
 }
 
 .ingredient {
-	padding: 3px 0;
+	padding: 5px 0;
 	font-weight: 600;
 	font-size: 15.5px;
+	line-height: 1.25;
 }
 .ingredient.title {
 	font-weight: 900;

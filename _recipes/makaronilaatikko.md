@@ -29,7 +29,7 @@ ingredients:
 
 directions:
 - Paista soijarouhetta hetki öljyssä, ja sitten lisää muut aineet ja vesi pikkuhiljaa kunnes kaikki on imeytynyt.
-- Keitä makaronit sultussa vedessä.
+- Keitä makaronit suolatussa vedessä.
 - Yhdistä kaikki aineet uunivuoassa ja ripottele päälle hieman korppujauhoja ja öljyä.
 - Paista 200 °C asteessa noin 30 minuuttia.
 - Tarjoile ketsupin kanssa.

@@ -3,7 +3,7 @@
 layout: recipe
 title: "Kinuski"
 tags:
-  - sekalainen
+  - jälkiruoka
 time: 10 min
 serves:
 
