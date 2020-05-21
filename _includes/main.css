@@ -9,7 +9,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 li {
 	margin-left: 16px;
@@ -26,12 +25,40 @@ html {
 	-webkit-tap-highlight-color: transparent;
 }
 
-#ios-status-bg {
+#ios-status-bg,
+#button-container {
 	display: none;
 }
 
+#button-container {
+	display: none;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: -50px;
+}
+
+#button-container a {
+	margin: 0 10px;
+	width: 35px;
+	height: 35px;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 10px;
+}
+#button-container a:active { background: #55ce2d; }
+#s-button svg { fill: #AAA; }
+#s-button:active svg { fill: #FFF; }
+#copy-button svg g { stroke: #AAA; }
+#copy-button:active svg g { stroke: #FFF; }
+
+
 /* iOS PWA */
 @media (display-mode: standalone) {
+	#button-container {
+		display: block;
+	}
+
 	@supports (-webkit-touch-callout: none) {
 		#ios-status-bg {
 			display: block;

@@ -10,8 +10,8 @@ layout: compress
     <meta name="theme-color" content="#2F3BA2">
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/icon-512.png" sizes="512x512">
-    <link rel="apple-touch-icon" sizes="512x512" href="/icon-512.png">
+    <link rel="icon" type="image/png" href="/icon-5122.png" sizes="512x512">
+    <link rel="apple-touch-icon" sizes="512x512" href="/icon-5122.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>{%- if page.title -%}{{ page.title | escape }} - {% endif -%} {{ site.title | escape }}</title>
@@ -19,7 +19,7 @@ layout: compress
       {% include main.css %}
     </style>
   </head>
-  <body>
+  <body ontouchstart="">
     <div id="ios-status-bg"></div>
 
     <header id="site-header">
@@ -28,6 +28,15 @@ layout: compress
 
     <div id="content-container">
       {{ content }}
+
+      <div id="button-container">
+        <a id="s-button" href="#">
+          <svg width="35" viewBox="0 0 512 512"><path d="M399.5 165c28.95 0 52.5-23.55 52.5-52.5S428.45 60 399.5 60 347 83.55 347 112.5s23.55 52.5 52.5 52.5zm0-75c12.4 0 22.5 10.1 22.5 22.5S411.9 135 399.5 135 377 124.9 377 112.5 387.1 90 399.5 90zM112.5 203.5C83.55 203.5 60 227.05 60 256s23.55 52.5 52.5 52.5S165 284.95 165 256s-23.55-52.5-52.5-52.5zm0 75c-12.4 0-22.5-10.1-22.5-22.5s10.1-22.5 22.5-22.5S135 243.6 135 256s-10.1 22.5-22.5 22.5z"/><path d="M399.5 287c-38.6 0-72.7 19.54-92.98 49.24l-87.58-43.8c3.92-11.43 6.06-23.69 6.06-36.44s-2.14-25.01-6.06-36.45l87.58-43.79c20.27 29.7 54.39 49.24 92.98 49.24 62.03 0 112.5-50.47 112.5-112.5S461.53 0 399.5 0 287 50.47 287 112.5c0 12.75 2.14 25.01 6.06 36.45l-87.58 43.79c-20.27-29.7-54.39-49.24-92.98-49.24C50.47 143.5 0 193.97 0 256s50.47 112.5 112.5 112.5c38.6 0 72.7-19.54 92.98-49.24l87.58 43.8A112.02 112.02 0 00287 399.5c0 62.03 50.47 112.5 112.5 112.5S512 461.53 512 399.5 461.53 287 399.5 287zm0-257C445 30 482 67 482 112.5S445 195 399.5 195 317 158 317 112.5 354 30 399.5 30zm-287 308.5C67 338.5 30 301.5 30 256s37-82.5 82.5-82.5 82.5 37 82.5 82.5-37 82.5-82.5 82.5zm287 143.5c-45.5 0-82.5-37-82.5-82.5s37-82.5 82.5-82.5 82.5 37 82.5 82.5-37 82.5-82.5 82.5z"/><path d="M399.5 347c-28.95 0-52.5 23.55-52.5 52.5s23.55 52.5 52.5 52.5 52.5-23.55 52.5-52.5-23.55-52.5-52.5-52.5zm0 75c-12.4 0-22.5-10.1-22.5-22.5s10.1-22.5 22.5-22.5 22.5 10.1 22.5 22.5-10.1 22.5-22.5 22.5z"/></svg>
+        </a>
+        <a id="copy-button" href="#">
+          <svg width="35" viewBox="0 0 526 524"><g stroke-width="32" fill="none" fill-rule="evenodd"><path d="M441 427c0 45-37 82-82 82H97c-45 0-82-37-82-82V165c0-45 37-82 82-82"/><g transform="translate(85 15)"><rect width="426" height="426" rx="71"/><path stroke-linecap="round" d="M84 97h249M84 172h196M84 246h249M84 321h196"/></g></g></svg>
+        </a>
+      </div>
     </div>
 
     <script type="text/javascript">
@@ -41,6 +50,28 @@ layout: compress
             );
           });
       }
+
+      document.addEventListener("DOMContentLoaded", function(){
+        document.getElementById('s-button')
+          .addEventListener('click', e => {
+            e.preventDefault();
+
+            if (navigator.share) {
+              navigator.share({
+                title: document.title,
+                url: window.location.href
+              })
+              .catch(console.error);
+            }
+          });
+
+        document.getElementById('copy-button')
+          .addEventListener('click', e => {
+            e.preventDefault();
+
+            navigator.clipboard.writeText(window.location.href);
+          });
+      });
     </script>
   </body>
 </html>
