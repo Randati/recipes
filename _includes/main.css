@@ -23,6 +23,7 @@ html {
 	font-size: 17px;
 	line-height: 1.5;
 	color: #222;
+	-webkit-tap-highlight-color: transparent;
 }
 
 h1, h2, h3 {
@@ -89,7 +90,8 @@ a:hover {
 .recipe-list li {
 	break-inside: avoid-column;
 	font-size: 12px;
-	padding: 2px 0;
+	padding: 5px 0;
+	line-height: 1.1;
 }
 
 
