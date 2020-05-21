@@ -26,6 +26,32 @@ html {
 	-webkit-tap-highlight-color: transparent;
 }
 
+#ios-status-bg {
+	display: none;
+}
+
+/* iOS PWA */
+@media (display-mode: standalone) {
+	@supports (-webkit-touch-callout: none) {
+		#ios-status-bg {
+			display: block;
+			background: #55ce2d;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 20.1px; /* ... */
+			transform: translate(0, -20px);
+		}
+	}
+}
+
+
+::selection {
+	background: #55ce2d;
+	color: #fff;
+}
+
 h1, h2, h3 {
 	font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	text-align: center;
