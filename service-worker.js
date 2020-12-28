@@ -7,6 +7,7 @@ const CACHE_NAME = 'offline-cache-{{'now' | date: '%s' }}';
 
 const FILES_TO_CACHE = [
 	'/',
+	'/turbolinks.js',
 	'/favicon.png',
 	'/icon-5124.png',
 	'/poppins-700.subset.woff2',
