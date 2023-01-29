@@ -67,8 +67,8 @@ html {
 			top: 0;
 			left: 0;
 			right: 0;
-			height: 20.1px; /* ... */
-			transform: translate(0, -20px);
+			height: 60.1px;
+			transform: translate(0, -60px);
 		}
 	}
 }
